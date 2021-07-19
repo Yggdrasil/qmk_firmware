@@ -199,7 +199,7 @@ void matrix_scan_user(void) {
         SEQ_ONE_KEY(KC_S) { // Windows screenshot
             SEND_STRING(SS_LGUI("\nS"));
         }
-        SEQ_TWO_KEYS(KC_E, KC_S) { // Support email splitkb
+        SEQ_TWO_KEYS(KC_E, KC_H) { // Support email splitkb
             SEND_STRING("martijn@heemels.com");
         }
         SEQ_TWO_KEYS(KC_E, KC_I) { // Email splitkb
